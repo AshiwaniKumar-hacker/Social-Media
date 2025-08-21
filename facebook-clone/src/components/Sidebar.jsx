@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <div
-      className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark"
+      className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"
       style={{ width: "280px" }}
     >
       <a
@@ -43,46 +43,7 @@ const Sidebar = () => {
             >
               <use xlinkHref="#speedometer2"></use>
             </svg>
-            Dashboard
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-link text-white">
-            <svg
-              className="bi pe-none me-2"
-              width="16"
-              height="16"
-              aria-hidden="true"
-            >
-              <use xlinkHref="#table"></use>
-            </svg>
-            Orders
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-link text-white">
-            <svg
-              className="bi pe-none me-2"
-              width="16"
-              height="16"
-              aria-hidden="true"
-            >
-              <use xlinkHref="#grid"></use>
-            </svg>
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-link text-white">
-            <svg
-              className="bi pe-none me-2"
-              width="16"
-              height="16"
-              aria-hidden="true"
-            >
-              <use xlinkHref="#people-circle"></use>
-            </svg>
-            Customers
+            Create Post
           </a>
         </li>
       </ul>
