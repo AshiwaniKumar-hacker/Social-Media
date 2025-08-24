@@ -10,3 +10,7 @@ display: flex;
 .sidebar{
   min-height: 800px;
 }
+
+.post{
+  display:flex
+}
