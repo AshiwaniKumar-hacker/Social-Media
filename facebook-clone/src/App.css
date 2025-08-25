@@ -11,6 +11,26 @@ display: flex;
   min-height: 800px;
 }
 
-.post{
+/* .post{
   display:flex
+} */
+
+.post-card{
+  margin:20px 50px;
+  width: 27rem;
+}
+
+.hashtag{
+  margin: 0px 10px;
+}
+
+.reactions{
+  margin: 15px 0 0 0;
+  width: 100%;
+}
+
+.create-post{
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 80%;
 }

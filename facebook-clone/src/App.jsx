@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar.jsx'
 import CreatePost from './components/CreatePost.jsx'
 import PostList from './components/PostList.jsx'
 import { useState } from 'react'
+import PostListProvider from './store/post-list-store.jsx'
 
 function App() {
 const [selectedTab,setSelectedTab]=useState("Create Post");
@@ -14,7 +15,8 @@ const [selectedTab,setSelectedTab]=useState("Create Post");
 
 
   return (
-    <div className='app-container'>
+    <PostListProvider>
+      <div className='app-container'>
     <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab}></Sidebar>
     <div className='content'>
       <Header></Header>
@@ -23,6 +25,7 @@ const [selectedTab,setSelectedTab]=useState("Create Post");
     </div>
     
   </div>
+    </PostListProvider>
   )
 }
 
