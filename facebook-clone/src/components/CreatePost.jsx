@@ -75,7 +75,7 @@ return (
       </label>
     <input type="text" 
       className="form-control" 
-      id="userId" postBody
+      id="userId"
       ref={reactionsElement}
       placeholder="How many people reacted on this post."
       />
