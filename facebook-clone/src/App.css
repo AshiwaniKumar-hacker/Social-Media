@@ -34,3 +34,7 @@ display: flex;
   margin-top: 3%;
   width: 80%;
 }
+
+.spinner{
+  margin: 10%;
+}
